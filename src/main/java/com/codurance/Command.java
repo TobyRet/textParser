@@ -50,4 +50,8 @@ public class Command {
     public boolean hasDirective() {
         return (directive != null);
     }
+
+    public Command parse(String input) {
+        return null;
+    }
 }
